@@ -1,0 +1,41 @@
+<h2 mat-dialog-title>Update Student Information</h2>
+<div mat-dialog-content>
+  <form [formGroup]="updateform"   onsubmit="Updateuser" >
+    <mat-form-field>
+      <input matInput formControlName="id" placeholder="username">
+    </mat-form-field>
+&nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+      <input matInput formControlName="name" placeholder="name">
+    </mat-form-field>
+    &nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+      <input matInput formControlName="email" placeholder="Email">
+    </mat-form-field>
+    &nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+      <input matInput formControlName="password" placeholder="password">
+    </mat-form-field>
+    &nbsp;&nbsp;&nbsp;
+    
+    &nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+
+      <input matInput formControlName="role" placeholder="Role">
+    </mat-form-field>
+    &nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+      <input  matInput formControlName="status" placeholder="Status">
+        
+      
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button (click)=" onCancelClick()" mat-raised-button color="primary">Cancel</button>
+  <button (click)="onUpdateClick()"  mat-raised-button color="primary" >Update</button>
+</div>
+
+
+
+

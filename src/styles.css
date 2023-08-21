@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgba(43,105,118,255)
+}
+
+h1 {
+    font-size: 40px;
+    color: #fefefe;
+    text-align: center;
+}
+.menu{
+    background-color: #fefefe;
+    font-size: 20px;
+    
+    
+}
+
+a:link {
+    color: rgb(5, 5, 5);
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: 60px;
+  }
+
+  a:visited {
+    color:rgba(43,105,118,255);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+   
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+

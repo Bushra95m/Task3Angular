@@ -1,0 +1,14 @@
+.form {
+    width: 1400px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+   
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+   
+  }

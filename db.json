@@ -1,0 +1,31 @@
+{
+  "student": [
+    {
+      "id": "Bushra",
+      "name": "Bushra Alhosni",
+      "password": "Abcd@1234",
+      "email": "Bushra@gmail.com",
+      "gender": "female",
+      "role": " admin",
+      "isactive": true
+    },
+    {
+      "id": "Reem",
+      "name": "Reem",
+      "password": "Abcd@1234",
+      "email": "Reem@gmail.com",
+      "gender": "female",
+      "role": " student",
+      "isactive": false
+    },
+    {
+      "id": "Mohammed",
+      "name": "Mohammed",
+      "password": "Mbcd@1234",
+      "email": "Mohammed@gmail.com",
+      "gender": "male",
+      "role": "Staff",
+      "isactive": false
+    }
+  ]
+}

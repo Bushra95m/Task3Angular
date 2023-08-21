@@ -1,0 +1,68 @@
+<br/>
+
+<h1>Registration Page</h1>
+<br/>
+
+<div class="menu">
+    
+      <a routerLink="/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a routerLink="/login">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a routerLink="/register">Registration</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a routerLink="/userlist">User Information</a>
+    
+</div>
+
+
+<form class="form">
+    
+   
+    
+        <form class="register-form " [formGroup]="registerform" (ngSubmit)="Pregister()">
+          <h2>User Registration</h2>
+          <div class="form-group" >
+            <label for="username">User Name</label>
+            <input type="text" id="username" name="id" formControlName="id" />
+          
+        </div>
+
+        <div class="form-group" >
+          <label for="username">Name</label>
+          <input type="text" id="name" name="name" formControlName="name" />
+        
+      </div>
+
+        <div class="form-group" >
+          <label for="name">password</label>
+          <input type="text" id="name" name="password"formControlName="password"  />
+      </div>
+       
+      <label class="form-label" formControlName="gender" >Gender</label>
+      <div class="radio-group">
+          <input type="radio" value="male" name="gender" />Male
+          <input type="radio" value="female" name="gender" />Female>
+      </div>
+  
+        <div class="form-group" >
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"formControlName="email"  />
+        </div>
+
+        <div class="form-group" >
+          <label for="email">Role</label>
+          <input type="text" id="role" name="role" formControlName="role" />
+            
+        </div>
+
+        <button class="btn-primary">Submit</button>
+        <button routerLink="/login" class="btn-secondary">Back to Login</button>
+    </form>
+</form>
+
+
+
+
+
+
+
+
+
